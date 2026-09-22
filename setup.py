@@ -10,7 +10,7 @@ from typing import List
 
 def get_requirements()->List[str]:
     """
-    Thiss function will return list of requirements
+    This function will return list of requirements
     
     """
     requirement_lst:List[str]=[]
@@ -32,8 +32,8 @@ def get_requirements()->List[str]:
 setup(
     name="NetworkSecurity",
     version="0.0.1",
-    author="Krish Naik",
-    author_email="krishnaik06@gmail.com",
+    author="Vipul Mapara",
+    author_email="vipulmapara1115@gmail.com",
     packages=find_packages(),
     install_requires=get_requirements()
 )
